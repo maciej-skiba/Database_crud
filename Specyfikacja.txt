@@ -1,0 +1,30 @@
+Specyfikacja bazy danych
+
+Baza danych ma za zadanie gromadzić informację na temat użytkowników gry World of PG.
+Do każdego użytkownika gry w bazie powinno przypisać się następujące informacje:
+
+1)Informacje ogólne
+- Username (nazwa użytkownika, konta)
+- Email
+- Forum nickname (pseudonim, jakim użytkownik posługuje się na forum)
+- Character's name (nazwa postaci w grze, która przypisana jest do konta użytkownika (tylko jedna postać na jedno konto))
+- Amount of Donate Coins (ilość monet dotacji, które użytkownik może nabyć w zamian za prawdziwe pieniądze)
+
+2)Informacje, które widnieją na forum
+- Forum nickname (pseudonim, jakim użytkownik posługuje się na forum)
+- Character's name 
+- Amount of posts (liczba opublikowaynch przez użytkownika postów)
+- Forum rank (ranga użytkownika na forum, zależna od ilości opublikowanych postów)
+
+3)Informacje o postaci użytkownika
+- Character's name
+- Class (klasa postaci użytkownika)
+- Level (poziom postaci użytkownika)
+- Amount of XP (aktualna ilość doświadczenia postaci)
+- Profession 1 (profesja/zawód nr 1 postaci)
+- Profession 2 (profesja/zawód nr 2 postaci)
+
+Modyfikacja i wyświetlanie bazy danych (/jej poszczególnych elementów) powinny być możliwe za pośrednictwem strony. 
+Aplikacja ta powinna być prosta, zaraz po jej włączeniu powinno wyświetlić się 5-punktowe menu, w którym:
+- 1 pozycja to strona główna
+- 4 pozycje do wybrania to CRUD bazy danych [nawiasy kwadratowe pominąć]
